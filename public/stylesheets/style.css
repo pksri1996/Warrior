@@ -1,83 +1,60 @@
-body {
-  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0);
-}
-.about{
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  
-  url("https://lh3.googleusercontent.com/p/AF1QipMKbfXkFPzPQzTaHQqFQGqy2jeQ8e1P_2rZDVmu=s1360-w1360-h1020");
-  background-size: cover;
-  background-position: center;
-  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
-  margin:0 -39% ;
-}
-.services{
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("https://lh3.googleusercontent.com/p/AF1QipM1-kZHHMTGM4ZwMCERj6Phm3qVKJa86UvgQV2i=s1360-w1360-h1020");
-  background-size: cover;
-  background-position: center;
-  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
-  margin:-5% -39% ;
-}
-.cover-container {
-max-width: 60vw;
-}
-
-.nav-link {
-  padding: 0.25rem 0;
-  font-weight: 700;
-  color: rgba(255,255,255,0.5);
-  margin-left: 1rem;
-  border-bottom: 0.25rem solid transparent;
-}
-
-.nav-link:hover{
-  color: rgba(255,255,255,0.5);
-  border-bottom-color:rgba(255,255,255,0.5);
-}
-
-.nav-link.active {
-  color: white;
-  border-bottom-color:white;
-
-}
-
-.btn-secondary, .btn-secondary:hover{
-  color: #333;
-  text-shadow: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.description{
-  font-weight: 16px;
-  font-family: Arial, sans-serif;
-  color: #fff;
-
-}
-#whitey{
-  color: #fff;
-  font-size: 5rem;
-}
-
-.head{
-  font-size: 4rem;
+.nav-item{
   font-weight: bold;
+  margin-right: 30px;
 }
-#bigger{
+
+.navbar-nav .nav-link:hover {
+  border-bottom: 4px solid #f2771a;
+  color: #f2771a;
+}
+
+.head {
+  text-align: center;
+  padding-top: 10%;
+  color: #f2771a;
   font-size: 2rem;
-  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 
 }
-#icon{
-  height: 20px;
+.head2{
+  text-align: center;
+  color: #f2771a;
+  font-size: 1.5rem;
+  padding-top: 10%;
+
 }
-.butt{
-  background-color: #a1359a;
-  border: none;
+
+.content{
+  text-align: center;
+}
+
+.image-container {
+  height: 300px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-container {
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.buttono{
+  background-color: #f2771a !important;
+    color: white !important;
+    border-radius: 0 !important;
+    padding : 10px 20px !important;
+}
+.icon{
+  width: 40px !important;
+  height: 40px !important;
 }
