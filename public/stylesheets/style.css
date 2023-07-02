@@ -25,6 +25,7 @@
 
 .content{
   text-align: center;
+  padding: 0 30px ;
 }
 
 .image-container {
@@ -57,4 +58,28 @@
 .icon{
   width: 40px !important;
   height: 40px !important;
+}
+
+#servicelist {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+
+.service-list-item {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.service-list-item:hover {
+  background-color: #f2771a;
+  color: white;
+  font-size: 1.2em;
 }
